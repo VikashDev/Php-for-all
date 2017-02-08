@@ -1,5 +1,3 @@
-# Php-for-all
-
 # Table of Content
 
 * Basic Syntax
