@@ -1,0 +1,73 @@
+What is OOP?
+
+OOP is a programming language model organized around " objects" rather than "actions" and "data" rather than "logic"
+-------------------------------------********************---------------------
+
+OOP Concepts
+
+* Obejects
+* Classes
+* Methods & Properties
+* Data Abstraction & Encapuation
+* Inheritance
+* Polymorphism
+* Constructors/Destructors
+-------------------------------------------------------------------------------
+
+Basic Syntax
+
+<?php
+	Class User {
+
+	public $someProperty;
+
+	public function someFunction() {
+		// Do Something
+			}
+		}
+?>
+
+Visibility
+
+	public - Accessible outside of class
+	protected - Accessable in class and any extended classes
+	private - Accessible ONLY in owner class
+
+
+Inheritance
+
+	* Classes can be extended to a child class
+	* Child clasess have access to all of it's parent properties and methods UNLESS the visibity of them is set to "private"
+
+	Class ChildClass extends PraentClass{ 
+
+	}
+
+
+Instantiate & Use a class
+
+	To create an instance ..
+		
+		user = new User;
+
+	- Print a property
+
+		<?php echo $user->firstName; ?>
+
+	- Call a method/function
+
+		<?php $usr->register(); ?>
+
+
+Abstract Classes
+	
+	abstract class SomeClass {
+		
+		abstract public function someFunction() {
+
+			}
+	}
+
+	* can't be instantiated and used directly
+	* Must be extended by another class
+	* If a property or method is "abstract" then the class also must be "abstract"

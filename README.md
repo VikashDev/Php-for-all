@@ -1,12 +1,22 @@
-# Table of Content
+# Php Content
 
 * Basic Syntax
 * Variables (declaration, Rules, Use)
-* Arrays (numeric, multidimensional)
-* Loops (for, while , foreach)
-* Functions
 * Include & Require
-* Conditionals (If Else, Switch)
+* Functions
+* Arrays (numeric, multidimensional)
+* Conditionals (If-Else, Switch)
+* Loops (for, while , foreach)
 * Regular Expressions
-* OOP - Classes , Objects, Properties and Methods
-* OOP - Get/Set methods & access modifiers (Pubic, Private, Protected)
+
+# OOP - Php Concept
+
+* Classes 
+* Objects
+* Properties and Methods
+* Data Abstraction & Encapculation
+* Inheritance 
+* Polymorphism
+* Constructors/ Destructors
+* Get/Set methods & 
+* access modifiers (Pubic, Private, Protected)

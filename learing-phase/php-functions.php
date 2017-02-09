@@ -17,6 +17,7 @@
 
     className('Hello');
     className2('Hello');
+    className2('Hello','other para');
 
     function add($a, $b) {
         return $a + $b;

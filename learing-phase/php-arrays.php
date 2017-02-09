@@ -1,8 +1,11 @@
 <?php
-// notice basic syntax of indexed based 0, 1,2 ,3 ...
+// notice basic syntax of indexed based 0, 1, 2 ,3 ...
 
 $arr = array('one', 2, 'three', 4, 'five'); // notice element pattern
 $arr2 = ['one', 2, 'three', 4, 'five']; // same with some change syntax
+
+// print the array for devlopment purpose
+    print_r($arr);
 
 
 //access the element
@@ -25,9 +28,6 @@ echo $arr3['key2'];
 
 echo  count($arr3); // count the elments
 echo array_pop($arr3); // just return the last element
-
-
-
 
 
 ?>
