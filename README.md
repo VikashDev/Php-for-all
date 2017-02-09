@@ -8,4 +8,5 @@
 * Include & Require
 * Conditionals (If Else, Switch)
 * Regular Expressions
-* OOP Methods and Properties
+* OOP - Classes , Objects, Properties and Methods
+* OOP - Get/Set methods & access modifiers (Pubic, Private, Protected)
