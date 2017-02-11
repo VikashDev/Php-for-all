@@ -29,5 +29,4 @@ echo $arr3['key2'];
 echo  count($arr3); // count the elments
 echo array_pop($arr3); // just return the last element
 
-
 ?>

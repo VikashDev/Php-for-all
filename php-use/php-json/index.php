@@ -17,9 +17,7 @@
             echo "<li>Year : ". $value['title'] . "</li>";
             echo "<li>Genes : ". $value['genre'] . "</li>";
             echo "<li>Directors : ". $value['director'] . "</li>";
-        }
-    
-    
+        }    
     
     ?>
 </ul>
